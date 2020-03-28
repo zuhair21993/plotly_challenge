@@ -56,16 +56,20 @@ function getTable_Plot(id) {
                 mode: "gauge+number",
                 gauge: { axis: { range: [null, 9] },
                     steps :[
-                        {range: [0, 1], color:"lightyellow"},
-                        {range: [1, 2], color:"lightgreen"},
-                        {range: [2, 3], color:"lightcyan"},
-                        {range: [3, 4], color:"lightteal"},
-                        {range: [4, 5], color:"lightlime"},
-                        {range: [5, 6], color:"cyan"},
-                        {range: [6, 7], color:"teal"},
-                        {range: [7, 8], color:"lime"},
-                        {range: [8, 9], color:"green"},
-                    ]}
+                    {range: [0,1], color: "#f8f3ec"},
+                    {range: [1,2], color: "#f4f1e4"},
+                    {range: [2,3], color: "#e9e6c9"},
+                    {range: [3,4], color: "#e5e8b0"},
+                    {range: [4,5], color: "#d5e599"},
+                    {range: [5,6], color: "#b7cd8f"},
+                    {range: [6,7], color: "#8ac086"},
+                    {range: [7,8], color: "#88bc8d"},
+                    {range: [8,9], color: "#84b588"},
+                    ],
+                    axis: {range: [0, 9], 
+                        tickvals: [0,1,2,3,4,5,6,7,8,9]},
+                    bar: {color: "#840000"}
+                }
             }
         ];
         
